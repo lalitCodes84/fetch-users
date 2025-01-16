@@ -6,7 +6,7 @@ import { ThemeProvider } from "./components/themeContext";
 
 function App() {
   return (
-    <div className="text-3xl">
+    <div className="text-3xl h-screen">
       <ThemeProvider>
         <Routes>
           <Route path="/" element={<Home />} />

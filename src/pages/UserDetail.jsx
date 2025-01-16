@@ -10,7 +10,7 @@ function UserDetail() {
   const [singleUser] = useState(location.state || {});
   return (
     <div className="">
-      <div className="flex justify-center gap-20 shadow-custom w-fit m-auto p-4 mt-10 rounded-lg">
+      <div className="flex justify-center gap-20 shadow-custom w-fit m-auto p-4 mt-10 rounded-lg border-gray-800 border-2">
         <div>
           <h1 className="font-bold my-4">User Details</h1>
           <p id="name" className="flex gap-4">
